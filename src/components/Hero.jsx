@@ -72,7 +72,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-desc gsap-init font-sans text-base leading-relaxed opacity-60 max-w-lg text-balance">
-            Enthusiastic web developer with 2+ years of experience crafting responsive UIs,
+            Enthusiastic web developer with 3+ years of experience crafting responsive UIs,
             secure RESTful APIs and scalable full-stack applications. Passionate about clean,
             maintainable code and high-performance solutions.
           </p>
@@ -108,7 +108,7 @@ export default function Hero() {
           {/* Stats */}
           <div className="flex gap-8 pt-4 border-t border-white/5">
             {[
-              { value: '2+', label: 'Years Experience' },
+              { value: '3+', label: 'Years Experience' },
               { value: '100%', label: 'client Satisfaction' },
               { value: 'MERN', label: 'Primary Stack' },
             ].map(s => (

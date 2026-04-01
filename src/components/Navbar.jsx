@@ -41,7 +41,7 @@ export default function Navbar({ isDark, onToggle }) {
       ref={navRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'py-3 bg-ink-950/90 dark:bg-ink-950/90 light:bg-cream-50/90 backdrop-blur-xl border-b border-white/5'
+          ? !isDark ? 'py-5 bg-ink-950/ dark:bg-ink-950/90 light:bg-cream-90/90 backdrop-blur-xl border-b border-white/5 shadow-lg' : 'py-5 bg-ink-950/90 dark:bg-ink-950/90 light:bg-cream-50/90 backdrop-blur-xl border-b border-white/5'
           : 'py-5 bg-transparent'
       }`}
     >

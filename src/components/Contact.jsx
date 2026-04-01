@@ -72,7 +72,7 @@ export default function Contact() {
               {[
                 { icon: Mail,   label: 'Email',    value: 'guruprasathmsc@gmail.com', href: 'mailto:guruprasathmsc@gmail.com' },
                 { icon: Phone,  label: 'Phone',    value: '+91 80155 44372',           href: 'tel:+918015544372' },
-                { icon: MapPin, label: 'Location', value: 'Tamil Nadu, India',         href: null },
+                { icon: MapPin, label: 'Location', value: 'Mayiladuthurai, Tamil Nadu, India',         href: null },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex gap-4 items-center group">
                   <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent flex-shrink-0">

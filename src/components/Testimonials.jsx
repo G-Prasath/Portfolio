@@ -11,25 +11,25 @@ gsap.registerPlugin(ScrollTrigger)
 */
 const TESTIMONIALS = [
   {
-    name: 'Karthik Selvam',
-    role: 'CEO, Inbuilt Infra',
-    initials: 'KS',
+    name: 'Mr. Francis Anandaraj',
+    role: 'Interworld Line',
+    initials: 'FA',
     color: '#c9a96e',
-    text: "Prasath delivered our industrial website exactly as envisioned — clean design, fast load times and fully SEO-optimised. Within weeks of launch we started seeing organic enquiries from search. His attention to detail and timely communication made the entire process smooth.",
+    text: "Delivered a professional website that clearly showcases our logistics services and strengthens our global business presence."
   },
   {
-    name: 'Meena Rajendran',
-    role: 'Operations Head, E-Star',
-    initials: 'MR',
+    name: 'Mr. Kumar Gurusamy',
+    role: 'Almericus Inc.',
+    initials: 'KG',
     color: '#7eb8a0',
-    text: "Working with Prasath on our MERN stack project was a great experience. He understands both frontend and backend deeply — our APIs are clean, our UI is responsive and the admin panel he built has saved our team hours of manual work every week.",
+    text: "Delivered a clean and modern marketing website that clearly represents our brand and strengthens online presence.",
   },
   {
-    name: 'Dinesh Kumar',
-    role: 'Product Manager, Food Court App',
-    initials: 'DK',
+    name: 'Mr. Arulnidhi Panneerselvam',
+    role: 'Selvalakshmi Foundation',
+    initials: 'AP',
     color: '#a07eb8',
-    text: "The food ordering app Prasath built is fast, intuitive and handles everything from user auth to order tracking. He also built the admin panel proactively — something we hadn't even asked for but immediately became essential to our workflow.",
+    text: "Created a meaningful organization website that clearly communicates our mission and supports community outreach.",
   },
   {
     name: 'Sridhar Anand',

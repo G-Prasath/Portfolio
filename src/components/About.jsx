@@ -74,7 +74,7 @@ export default function About() {
 
             <p className="font-sans text-base leading-loose opacity-70">
               I'm <strong className="text-accent font-semibold">V. Prasath</strong> — a Tamil Nadu-based Full Stack Web
-              Developer with 2+ years of hands-on experience delivering responsive interfaces and robust backend systems.
+              Developer with 3+ years of hands-on experience delivering responsive interfaces and robust backend systems.
               I hold an MSc in Computer Science from Bharathidasan University and have worked across both agency and
               product environments.
             </p>
