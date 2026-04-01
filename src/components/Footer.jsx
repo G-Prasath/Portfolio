@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex items-center gap-2 font-sans text-xs opacity-35">
             <span>© 2026 All Rights Reserved. | Design by</span>
             <Heart size={11} className="text-red-400" fill="currentColor" />
-            <span>V. Guru Prasath</span>
+            <span>VP</span>
           </div>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
