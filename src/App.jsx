@@ -39,7 +39,7 @@ export default function App() {
 
       {/* Main content */}
       <main>
-        <Hero />
+        <Hero isDark={isDark} />
         <About />
         <Skills />
         <Projects />

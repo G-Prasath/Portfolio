@@ -1,16 +1,15 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { Github, Linkedin, Mail, Download, ArrowDownRight } from 'lucide-react'
-
 const SOCIAL = [
   { icon: Github, label: 'GitHub', href: 'https://github.com/guruprasathmsc' },
   { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/vprasath' },
   { icon: Mail, label: 'Email', href: 'mailto:guruprasathmsc@gmail.com' },
 ]
 
-export default function Hero() {
+export default function Hero({ isDark}) {
   const wrapRef = useRef(null)
-  const circleRef = useRef(null)
+  const circleRef = useRef(null)  
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -138,11 +137,11 @@ export default function Hero() {
             </svg>
 
             {/* Avatar placeholder — replace src with real photo */}
-            <div className="absolute inset-8 rounded-full overflow-hidden border-2 border-accent/20 shadow-2xl shadow-accent/10">
+            <div className="absolute inset-8 rounded-full overflow-hidden border-2 border-accent/20 shadow-2xl ${isDark ? 'shadow-accent/10' : 'shadow-accent/50'}">
               {/* Gradient avatar */}
-              <div className="w-full h-full bg-gradient-to-br from-ink-700 via-ink-800 to-ink-900 flex flex-col items-center justify-center">
+              <div className="w-full h-full ${isDark ? 'bg-gradient-to-br from-ink-700 via-ink-800 to-ink-900' : 'bg-accent/80'} flex flex-col items-center justify-center">
                 <div className="font-display text-5xl font-bold gradient-gold">VP</div>
-                <div className="font-mono text-xs text-accent/50 mt-2 tracking-[0.3em]">DEVELOPER</div>
+                <div className="font-mono text-xs ${isDark ? 'text-accent/90' : 'text-accent/50'} mt-2 tracking-[0.3em]">DEVELOPER</div>
               </div>
             </div>
 
