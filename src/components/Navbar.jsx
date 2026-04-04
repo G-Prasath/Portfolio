@@ -103,8 +103,8 @@ export default function Navbar({ isDark, onToggle }) {
       </nav>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden overflow-hidden transition-all duration-500 ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-        <ul className="px-6 py-4 flex flex-col gap-4 bg-ink-900/95 backdrop-blur-xl border-t border-white/5">
+      <div className={`z-999 md:hidden overflow-hidden transition-all duration-500 ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+        <ul className="px-6 py-4 flex flex-col gap-4 ${isDark ? 'bg-ink-900/95' : 'bg-cream-50/90'} backdrop-blur-xl border-t border-white/5">
           {NAV_LINKS.map(link => (
             <li key={link.id}>
               <button
