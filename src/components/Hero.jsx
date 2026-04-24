@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { Github, Linkedin, Mail, Download, ArrowDownRight } from 'lucide-react'
 const SOCIAL = [
-  { icon: Github, label: 'GitHub', href: 'https://github.com/guruprasathmsc' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/vprasath' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/G-Prasath' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/prasath264' },
   { icon: Mail, label: 'Email', href: 'mailto:guruprasathmsc@gmail.com' },
 ]
 

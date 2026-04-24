@@ -94,8 +94,8 @@ export default function Contact() {
               <h3 className="font-display font-semibold mb-4">Follow My Work</h3>
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Github,   label: 'GitHub',   href: 'https://github.com/guruprasathmsc',  sub: 'guruprasathmsc' },
-                  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/vprasath',   sub: 'V. Prasath' },
+                  { icon: Github,   label: 'GitHub',   href: 'https://github.com/G-Prasath',  sub: 'G-Prasath' },
+                  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/prasath264',   sub: 'V. Prasath' },
                 ].map(({ icon: Icon, label, href, sub }) => (
                   <a key={label} href={href} target="_blank" rel="noopener noreferrer"
                     className="flex flex-col items-center gap-2 p-4 rounded-xl bg-white/3 hover:bg-accent/10 hover:text-accent border border-transparent hover:border-accent/20 transition-all text-center group">
